@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="H3d-3A-908">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="H3d-3A-908">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="f9K-wb-XTf">
                                 <rect key="frame" x="87" y="138" width="240" height="128"/>
@@ -49,6 +48,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="H3d-3A-908" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0Ch-7K-9U6"/>
+                            <constraint firstItem="H3d-3A-908" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="2W4-HD-GhM"/>
+                            <constraint firstAttribute="bottom" secondItem="H3d-3A-908" secondAttribute="bottom" id="5U2-sQ-Pmc"/>
+                            <constraint firstItem="H3d-3A-908" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mLJ-LD-tJJ"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="diceImageViewOne" destination="npp-or-ykD" id="Hfz-SE-3ps"/>
